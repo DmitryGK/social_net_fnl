@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <div className={c.content}>
             <div>
-                <img src={bg}/>
+                <img />
             </div>
             <div>
                 ava + description

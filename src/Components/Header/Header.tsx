@@ -1,10 +1,11 @@
 
 import h from'./Header.module.css'
+import logo from './../../Images/Group 3cat.png'
 
 const Header = () => {
     return (
         <header className={h.header}>
-            <img src='https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg?resize=400x0' />
+            <img src= {logo}/>
         </header>
     )
 }
